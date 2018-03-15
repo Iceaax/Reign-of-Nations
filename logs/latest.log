@@ -1,0 +1,235 @@
+[16:29:43] [main/INFO]: Loading tweak class name cpw.mods.fml.common.launcher.FMLServerTweaker
+[16:29:43] [main/INFO]: Using primary tweak class name cpw.mods.fml.common.launcher.FMLServerTweaker
+[16:29:43] [main/INFO]: Calling tweak class cpw.mods.fml.common.launcher.FMLServerTweaker
+[16:29:43] [main/INFO]: Forge Mod Loader version 7.99.4.1614 for Minecraft 1.7.10 loading
+[16:29:44] [main/INFO]: Java is Java HotSpot(TM) 64-Bit Server VM, version 1.8.0_144, running on Windows 10:amd64:10.0, installed at C:\Program Files\Java\jre1.8.0_144
+[16:29:44] [main/INFO]: [pw.prok.imagine.ImagineLoadingPlugin:<clinit>:26]: Loading plugin initialized!
+[16:29:44] [main/INFO]: Loading tweak class name cpw.mods.fml.common.launcher.FMLInjectionAndSortingTweaker
+[16:29:44] [main/INFO]: Loading tweak class name cpw.mods.fml.common.launcher.FMLDeobfTweaker
+[16:29:44] [main/INFO]: Calling tweak class cpw.mods.fml.common.launcher.FMLInjectionAndSortingTweaker
+[16:29:44] [main/INFO]: Calling tweak class cpw.mods.fml.common.launcher.FMLInjectionAndSortingTweaker
+[16:29:44] [main/INFO]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
+[16:29:45] [main/INFO]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
+[16:29:45] [main/INFO]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
+[16:29:46] [main/INFO]: Calling tweak class cpw.mods.fml.common.launcher.FMLDeobfTweaker
+[16:29:46] [main/INFO]: Loading tweak class name cpw.mods.fml.common.launcher.TerminalTweaker
+[16:29:46] [main/INFO]: Calling tweak class cpw.mods.fml.common.launcher.TerminalTweaker
+[16:29:46] [main/INFO]: Launching wrapped minecraft {net.minecraft.server.MinecraftServer}
+[16:29:51] [Server thread/INFO]: Starting minecraft server version 1.7.10
+[16:29:51] [Server thread/INFO]: Attempting early MinecraftForge initialization
+[16:29:51] [Server thread/INFO]: MinecraftForge v10.13.4.1614 Initialized
+[16:29:51] [Server thread/INFO]: Replaced 184 ore recipies
+[16:29:51] [Server thread/INFO]: Completed early MinecraftForge initialization
+[16:29:51] [Server thread/INFO]: Found 0 mods from the command line. Injecting into mod discoverer
+[16:29:51] [Server thread/INFO]: Searching C:\Users\aaron\Desktop\forge server holy shit\mods for mods
+[16:29:52] [Server thread/INFO]: Forge Mod Loader has identified 6 mods to load
+[16:29:52] [Server thread/INFO]: Attempting connection with missing mods [mcp, FML, Forge, kimagine, imsm, invention] at CLIENT
+[16:29:52] [Server thread/INFO]: Attempting connection with missing mods [mcp, FML, Forge, kimagine, imsm, invention] at SERVER
+[16:29:53] [Server thread/ERROR]: Fatal errors were detected during the transition from CONSTRUCTING to PREINITIALIZATION. Loading cannot continue
+[16:29:53] [Server thread/ERROR]: 
+	States: 'U' = Unloaded 'L' = Loaded 'C' = Constructed 'H' = Pre-initialized 'I' = Initialized 'J' = Post-initialized 'A' = Available 'D' = Disabled 'E' = Errored
+	UC	mcp{9.05} [Minecraft Coder Pack] (minecraft.jar) 
+	UC	FML{7.10.99.99} [Forge Mod Loader] (Thermos-1.7.10-1614-server.jar) 
+	UC	Forge{10.13.4.1614} [Minecraft Forge] (Thermos-1.7.10-1614-server.jar) 
+	UC	kimagine{0.2} [KImagine] (minecraft.jar) 
+	UE	imsm{1.7.10} [Instant Massive Structures Mod] (Instant-Massive-Structures-Mod-1.7.10.jar) 
+	UC	invention{1.0.0} [Invention] (Invention-1.0.0-Beta.jar) 
+[16:29:53] [Server thread/ERROR]: The following problems were captured during this phase
+[16:29:53] [Server thread/ERROR]: Caught exception from imsm
+java.lang.NoClassDefFoundError: net/minecraft/client/multiplayer/WorldClient
+	at modid.imsm.core.IMSM.<clinit>(IMSM.java:195) ~[IMSM.class:?]
+	at java.lang.Class.forName0(Native Method) ~[?:1.8.0_144]
+	at java.lang.Class.forName(Unknown Source) ~[?:1.8.0_144]
+	at cpw.mods.fml.common.FMLModContainer.constructMod(FMLModContainer.java:440) ~[FMLModContainer.class:1.7.10-1614.58]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_144]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_144]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_144]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:1.8.0_144]
+	at com.google.common.eventbus.EventSubscriber.handleEvent(EventSubscriber.java:74) ~[server-1.7.10.jar:?]
+	at com.google.common.eventbus.SynchronizedEventSubscriber.handleEvent(SynchronizedEventSubscriber.java:47) ~[server-1.7.10.jar:?]
+	at com.google.common.eventbus.EventBus.dispatch(EventBus.java:322) ~[server-1.7.10.jar:?]
+	at com.google.common.eventbus.EventBus.dispatchQueuedEvents(EventBus.java:304) ~[server-1.7.10.jar:?]
+	at com.google.common.eventbus.EventBus.post(EventBus.java:275) ~[server-1.7.10.jar:?]
+	at cpw.mods.fml.common.LoadController.sendEventToModContainer(LoadController.java:212) ~[LoadController.class:1.7.10-1614.58]
+	at cpw.mods.fml.common.LoadController.propogateStateMessage(LoadController.java:190) ~[LoadController.class:1.7.10-1614.58]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_144]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_144]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_144]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:1.8.0_144]
+	at com.google.common.eventbus.EventSubscriber.handleEvent(EventSubscriber.java:74) ~[server-1.7.10.jar:?]
+	at com.google.common.eventbus.SynchronizedEventSubscriber.handleEvent(SynchronizedEventSubscriber.java:47) ~[server-1.7.10.jar:?]
+	at com.google.common.eventbus.EventBus.dispatch(EventBus.java:322) ~[server-1.7.10.jar:?]
+	at com.google.common.eventbus.EventBus.dispatchQueuedEvents(EventBus.java:304) ~[server-1.7.10.jar:?]
+	at com.google.common.eventbus.EventBus.post(EventBus.java:275) ~[server-1.7.10.jar:?]
+	at cpw.mods.fml.common.LoadController.distributeStateMessage(LoadController.java:119) [LoadController.class:1.7.10-1614.58]
+	at cpw.mods.fml.common.Loader.loadMods(Loader.java:513) [Loader.class:1.7.10-1614.58]
+	at cpw.mods.fml.server.FMLServerHandler.beginServerLoading(FMLServerHandler.java:87) [FMLServerHandler.class:1.7.10-1614.58]
+	at cpw.mods.fml.common.FMLCommonHandler.onServerStart(FMLCommonHandler.java:320) [FMLCommonHandler.class:1.7.10-1614.58]
+	at net.minecraft.server.dedicated.DedicatedServer.func_71197_b(DedicatedServer.java:176) [lt.class:?]
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:643) [MinecraftServer.class:?]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_144]
+Caused by: java.lang.ClassNotFoundException: net.minecraft.client.multiplayer.WorldClient
+	at net.minecraft.launchwrapper.LaunchClassLoader.findClass(LaunchClassLoader.java:191) ~[launchwrapper-1.12.jar:?]
+	at java.lang.ClassLoader.loadClass(Unknown Source) ~[?:1.8.0_144]
+	at java.lang.ClassLoader.loadClass(Unknown Source) ~[?:1.8.0_144]
+	... 31 more
+Caused by: java.lang.RuntimeException: Attempted to load class bjf for invalid side SERVER
+	at cpw.mods.fml.common.asm.transformers.SideTransformer.transform(SideTransformer.java:51) ~[Thermos-1.7.10-1614-server.jar:1.7.10-1614.58]
+	at net.minecraft.launchwrapper.LaunchClassLoader.runTransformers(LaunchClassLoader.java:279) ~[launchwrapper-1.12.jar:?]
+	at net.minecraft.launchwrapper.LaunchClassLoader.findClass(LaunchClassLoader.java:176) ~[launchwrapper-1.12.jar:?]
+	at java.lang.ClassLoader.loadClass(Unknown Source) ~[?:1.8.0_144]
+	at java.lang.ClassLoader.loadClass(Unknown Source) ~[?:1.8.0_144]
+	... 31 more
+[16:29:53] [Server thread/ERROR]: Encountered an unexpected exception
+cpw.mods.fml.common.LoaderException: java.lang.NoClassDefFoundError: net/minecraft/client/multiplayer/WorldClient
+
+	at cpw.mods.fml.common.LoadController.transition(LoadController.java:163) ~[LoadController.class:1.7.10-1614.58]
+	at cpw.mods.fml.common.Loader.loadMods(Loader.java:544) ~[Loader.class:1.7.10-1614.58]
+	at cpw.mods.fml.server.FMLServerHandler.beginServerLoading(FMLServerHandler.java:87) ~[FMLServerHandler.class:1.7.10-1614.58]
+	at cpw.mods.fml.common.FMLCommonHandler.onServerStart(FMLCommonHandler.java:320) ~[FMLCommonHandler.class:1.7.10-1614.58]
+	at net.minecraft.server.dedicated.DedicatedServer.func_71197_b(DedicatedServer.java:176) ~[lt.class:?]
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:643) [MinecraftServer.class:?]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_144]
+Caused by: java.lang.NoClassDefFoundError: net/minecraft/client/multiplayer/WorldClient
+	at modid.imsm.core.IMSM.<clinit>(IMSM.java:195) ~[IMSM.class:?]
+	at java.lang.Class.forName0(Native Method) ~[?:1.8.0_144]
+	at java.lang.Class.forName(Unknown Source) ~[?:1.8.0_144]
+	at cpw.mods.fml.common.FMLModContainer.constructMod(FMLModContainer.java:440) ~[FMLModContainer.class:1.7.10-1614.58]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_144]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_144]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_144]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:1.8.0_144]
+	at com.google.common.eventbus.EventSubscriber.handleEvent(EventSubscriber.java:74) ~[server-1.7.10.jar:?]
+	at com.google.common.eventbus.SynchronizedEventSubscriber.handleEvent(SynchronizedEventSubscriber.java:47) ~[server-1.7.10.jar:?]
+	at com.google.common.eventbus.EventBus.dispatch(EventBus.java:322) ~[server-1.7.10.jar:?]
+	at com.google.common.eventbus.EventBus.dispatchQueuedEvents(EventBus.java:304) ~[server-1.7.10.jar:?]
+	at com.google.common.eventbus.EventBus.post(EventBus.java:275) ~[server-1.7.10.jar:?]
+	at cpw.mods.fml.common.LoadController.sendEventToModContainer(LoadController.java:212) ~[LoadController.class:1.7.10-1614.58]
+	at cpw.mods.fml.common.LoadController.propogateStateMessage(LoadController.java:190) ~[LoadController.class:1.7.10-1614.58]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_144]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_144]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_144]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:1.8.0_144]
+	at com.google.common.eventbus.EventSubscriber.handleEvent(EventSubscriber.java:74) ~[server-1.7.10.jar:?]
+	at com.google.common.eventbus.SynchronizedEventSubscriber.handleEvent(SynchronizedEventSubscriber.java:47) ~[server-1.7.10.jar:?]
+	at com.google.common.eventbus.EventBus.dispatch(EventBus.java:322) ~[server-1.7.10.jar:?]
+	at com.google.common.eventbus.EventBus.dispatchQueuedEvents(EventBus.java:304) ~[server-1.7.10.jar:?]
+	at com.google.common.eventbus.EventBus.post(EventBus.java:275) ~[server-1.7.10.jar:?]
+	at cpw.mods.fml.common.LoadController.distributeStateMessage(LoadController.java:119) ~[LoadController.class:1.7.10-1614.58]
+	at cpw.mods.fml.common.Loader.loadMods(Loader.java:513) ~[Loader.class:1.7.10-1614.58]
+	... 5 more
+Caused by: java.lang.ClassNotFoundException: net.minecraft.client.multiplayer.WorldClient
+	at net.minecraft.launchwrapper.LaunchClassLoader.findClass(LaunchClassLoader.java:191) ~[launchwrapper-1.12.jar:?]
+	at java.lang.ClassLoader.loadClass(Unknown Source) ~[?:1.8.0_144]
+	at java.lang.ClassLoader.loadClass(Unknown Source) ~[?:1.8.0_144]
+	at modid.imsm.core.IMSM.<clinit>(IMSM.java:195) ~[IMSM.class:?]
+	at java.lang.Class.forName0(Native Method) ~[?:1.8.0_144]
+	at java.lang.Class.forName(Unknown Source) ~[?:1.8.0_144]
+	at cpw.mods.fml.common.FMLModContainer.constructMod(FMLModContainer.java:440) ~[FMLModContainer.class:1.7.10-1614.58]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_144]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_144]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_144]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:1.8.0_144]
+	at com.google.common.eventbus.EventSubscriber.handleEvent(EventSubscriber.java:74) ~[server-1.7.10.jar:?]
+	at com.google.common.eventbus.SynchronizedEventSubscriber.handleEvent(SynchronizedEventSubscriber.java:47) ~[server-1.7.10.jar:?]
+	at com.google.common.eventbus.EventBus.dispatch(EventBus.java:322) ~[server-1.7.10.jar:?]
+	at com.google.common.eventbus.EventBus.dispatchQueuedEvents(EventBus.java:304) ~[server-1.7.10.jar:?]
+	at com.google.common.eventbus.EventBus.post(EventBus.java:275) ~[server-1.7.10.jar:?]
+	at cpw.mods.fml.common.LoadController.sendEventToModContainer(LoadController.java:212) ~[LoadController.class:1.7.10-1614.58]
+	at cpw.mods.fml.common.LoadController.propogateStateMessage(LoadController.java:190) ~[LoadController.class:1.7.10-1614.58]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_144]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_144]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_144]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:1.8.0_144]
+	at com.google.common.eventbus.EventSubscriber.handleEvent(EventSubscriber.java:74) ~[server-1.7.10.jar:?]
+	at com.google.common.eventbus.SynchronizedEventSubscriber.handleEvent(SynchronizedEventSubscriber.java:47) ~[server-1.7.10.jar:?]
+	at com.google.common.eventbus.EventBus.dispatch(EventBus.java:322) ~[server-1.7.10.jar:?]
+	at com.google.common.eventbus.EventBus.dispatchQueuedEvents(EventBus.java:304) ~[server-1.7.10.jar:?]
+	at com.google.common.eventbus.EventBus.post(EventBus.java:275) ~[server-1.7.10.jar:?]
+	at cpw.mods.fml.common.LoadController.distributeStateMessage(LoadController.java:119) ~[LoadController.class:1.7.10-1614.58]
+	at cpw.mods.fml.common.Loader.loadMods(Loader.java:513) ~[Loader.class:1.7.10-1614.58]
+	... 5 more
+Caused by: java.lang.RuntimeException: Attempted to load class bjf for invalid side SERVER
+	at cpw.mods.fml.common.asm.transformers.SideTransformer.transform(SideTransformer.java:51) ~[Thermos-1.7.10-1614-server.jar:1.7.10-1614.58]
+	at net.minecraft.launchwrapper.LaunchClassLoader.runTransformers(LaunchClassLoader.java:279) ~[launchwrapper-1.12.jar:?]
+	at net.minecraft.launchwrapper.LaunchClassLoader.findClass(LaunchClassLoader.java:176) ~[launchwrapper-1.12.jar:?]
+	at java.lang.ClassLoader.loadClass(Unknown Source) ~[?:1.8.0_144]
+	at java.lang.ClassLoader.loadClass(Unknown Source) ~[?:1.8.0_144]
+	at modid.imsm.core.IMSM.<clinit>(IMSM.java:195) ~[IMSM.class:?]
+	at java.lang.Class.forName0(Native Method) ~[?:1.8.0_144]
+	at java.lang.Class.forName(Unknown Source) ~[?:1.8.0_144]
+	at cpw.mods.fml.common.FMLModContainer.constructMod(FMLModContainer.java:440) ~[FMLModContainer.class:1.7.10-1614.58]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_144]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_144]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_144]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:1.8.0_144]
+	at com.google.common.eventbus.EventSubscriber.handleEvent(EventSubscriber.java:74) ~[server-1.7.10.jar:?]
+	at com.google.common.eventbus.SynchronizedEventSubscriber.handleEvent(SynchronizedEventSubscriber.java:47) ~[server-1.7.10.jar:?]
+	at com.google.common.eventbus.EventBus.dispatch(EventBus.java:322) ~[server-1.7.10.jar:?]
+	at com.google.common.eventbus.EventBus.dispatchQueuedEvents(EventBus.java:304) ~[server-1.7.10.jar:?]
+	at com.google.common.eventbus.EventBus.post(EventBus.java:275) ~[server-1.7.10.jar:?]
+	at cpw.mods.fml.common.LoadController.sendEventToModContainer(LoadController.java:212) ~[LoadController.class:1.7.10-1614.58]
+	at cpw.mods.fml.common.LoadController.propogateStateMessage(LoadController.java:190) ~[LoadController.class:1.7.10-1614.58]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_144]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_144]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_144]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:1.8.0_144]
+	at com.google.common.eventbus.EventSubscriber.handleEvent(EventSubscriber.java:74) ~[server-1.7.10.jar:?]
+	at com.google.common.eventbus.SynchronizedEventSubscriber.handleEvent(SynchronizedEventSubscriber.java:47) ~[server-1.7.10.jar:?]
+	at com.google.common.eventbus.EventBus.dispatch(EventBus.java:322) ~[server-1.7.10.jar:?]
+	at com.google.common.eventbus.EventBus.dispatchQueuedEvents(EventBus.java:304) ~[server-1.7.10.jar:?]
+	at com.google.common.eventbus.EventBus.post(EventBus.java:275) ~[server-1.7.10.jar:?]
+	at cpw.mods.fml.common.LoadController.distributeStateMessage(LoadController.java:119) ~[LoadController.class:1.7.10-1614.58]
+	at cpw.mods.fml.common.Loader.loadMods(Loader.java:513) ~[Loader.class:1.7.10-1614.58]
+	... 5 more
+[16:29:53] [Server thread/ERROR]: 	Cause of unexpected exception was
+java.lang.NoClassDefFoundError: net/minecraft/client/multiplayer/WorldClient
+	at modid.imsm.core.IMSM.<clinit>(IMSM.java:195) ~[IMSM.class:?]
+	at java.lang.Class.forName0(Native Method) ~[?:1.8.0_144]
+	at java.lang.Class.forName(Unknown Source) ~[?:1.8.0_144]
+	at cpw.mods.fml.common.FMLModContainer.constructMod(FMLModContainer.java:440) ~[FMLModContainer.class:1.7.10-1614.58]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_144]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_144]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_144]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:1.8.0_144]
+	at com.google.common.eventbus.EventSubscriber.handleEvent(EventSubscriber.java:74) ~[server-1.7.10.jar:?]
+	at com.google.common.eventbus.SynchronizedEventSubscriber.handleEvent(SynchronizedEventSubscriber.java:47) ~[server-1.7.10.jar:?]
+	at com.google.common.eventbus.EventBus.dispatch(EventBus.java:322) ~[server-1.7.10.jar:?]
+	at com.google.common.eventbus.EventBus.dispatchQueuedEvents(EventBus.java:304) ~[server-1.7.10.jar:?]
+	at com.google.common.eventbus.EventBus.post(EventBus.java:275) ~[server-1.7.10.jar:?]
+	at cpw.mods.fml.common.LoadController.sendEventToModContainer(LoadController.java:212) ~[LoadController.class:1.7.10-1614.58]
+	at cpw.mods.fml.common.LoadController.propogateStateMessage(LoadController.java:190) ~[LoadController.class:1.7.10-1614.58]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_144]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_144]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_144]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:1.8.0_144]
+	at com.google.common.eventbus.EventSubscriber.handleEvent(EventSubscriber.java:74) ~[server-1.7.10.jar:?]
+	at com.google.common.eventbus.SynchronizedEventSubscriber.handleEvent(SynchronizedEventSubscriber.java:47) ~[server-1.7.10.jar:?]
+	at com.google.common.eventbus.EventBus.dispatch(EventBus.java:322) ~[server-1.7.10.jar:?]
+	at com.google.common.eventbus.EventBus.dispatchQueuedEvents(EventBus.java:304) ~[server-1.7.10.jar:?]
+	at com.google.common.eventbus.EventBus.post(EventBus.java:275) ~[server-1.7.10.jar:?]
+	at cpw.mods.fml.common.LoadController.distributeStateMessage(LoadController.java:119) ~[LoadController.class:1.7.10-1614.58]
+	at cpw.mods.fml.common.Loader.loadMods(Loader.java:513) ~[Loader.class:1.7.10-1614.58]
+	at cpw.mods.fml.server.FMLServerHandler.beginServerLoading(FMLServerHandler.java:87) ~[FMLServerHandler.class:1.7.10-1614.58]
+	at cpw.mods.fml.common.FMLCommonHandler.onServerStart(FMLCommonHandler.java:320) ~[FMLCommonHandler.class:1.7.10-1614.58]
+	at net.minecraft.server.dedicated.DedicatedServer.func_71197_b(DedicatedServer.java:176) ~[lt.class:?]
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:643) [MinecraftServer.class:?]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_144]
+Caused by: java.lang.ClassNotFoundException: net.minecraft.client.multiplayer.WorldClient
+	at net.minecraft.launchwrapper.LaunchClassLoader.findClass(LaunchClassLoader.java:191) ~[launchwrapper-1.12.jar:?]
+	at java.lang.ClassLoader.loadClass(Unknown Source) ~[?:1.8.0_144]
+	at java.lang.ClassLoader.loadClass(Unknown Source) ~[?:1.8.0_144]
+	... 31 more
+Caused by: java.lang.RuntimeException: Attempted to load class bjf for invalid side SERVER
+	at cpw.mods.fml.common.asm.transformers.SideTransformer.transform(SideTransformer.java:51) ~[Thermos-1.7.10-1614-server.jar:1.7.10-1614.58]
+	at net.minecraft.launchwrapper.LaunchClassLoader.runTransformers(LaunchClassLoader.java:279) ~[launchwrapper-1.12.jar:?]
+	at net.minecraft.launchwrapper.LaunchClassLoader.findClass(LaunchClassLoader.java:176) ~[launchwrapper-1.12.jar:?]
+	at java.lang.ClassLoader.loadClass(Unknown Source) ~[?:1.8.0_144]
+	at java.lang.ClassLoader.loadClass(Unknown Source) ~[?:1.8.0_144]
+	... 31 more
+[16:29:53] [Server thread/ERROR]: This crash report has been saved to: C:\Users\aaron\Desktop\forge server holy shit\.\crash-reports\crash-2018-03-05_16.29.53-server.txt
+[16:29:53] [Server thread/WARN]: Can't revert to frozen GameData state without freezing first.
+[16:29:53] [Server thread/INFO]: Applying holder lookups
+[16:29:53] [Server thread/INFO]: Holder lookups applied
+[16:29:53] [Server thread/INFO]: The state engine was in incorrect state ERRORED and forced into state SERVER_STOPPED. Errors may have been discarded.
+[16:29:53] [Server thread/INFO]: The state engine was in incorrect state ERRORED and forced into state AVAILABLE. Errors may have been discarded.

@@ -1,0 +1,93 @@
+[18:54:56] [main/INFO] [FML/]: Forge Mod Loader version 7.99.4.1614 for Minecraft 1.7.10 loading
+[18:54:57] [main/INFO] [FML/]: Java is Java HotSpot(TM) 64-Bit Server VM, version 1.8.0_144, running on Windows 10:amd64:10.0, installed at C:\Program Files\Java\jre1.8.0_144
+[18:54:57] [main/INFO] [STDERR/]: [pw.prok.imagine.ImagineLoadingPlugin:<clinit>:26]: Loading plugin initialized!
+[18:54:57] [main/INFO] [LaunchWrapper/]: Loading tweak class name cpw.mods.fml.common.launcher.FMLInjectionAndSortingTweaker
+[18:54:57] [main/INFO] [LaunchWrapper/]: Loading tweak class name cpw.mods.fml.common.launcher.FMLDeobfTweaker
+[18:54:57] [main/INFO] [LaunchWrapper/]: Calling tweak class cpw.mods.fml.common.launcher.FMLInjectionAndSortingTweaker
+[18:54:57] [main/INFO] [LaunchWrapper/]: Calling tweak class cpw.mods.fml.common.launcher.FMLInjectionAndSortingTweaker
+[18:54:57] [main/INFO] [LaunchWrapper/]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
+[18:54:58] [main/INFO] [LaunchWrapper/]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
+[18:54:58] [main/INFO] [LaunchWrapper/]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
+[18:54:59] [main/INFO] [LaunchWrapper/]: Calling tweak class cpw.mods.fml.common.launcher.FMLDeobfTweaker
+[18:54:59] [main/INFO] [LaunchWrapper/]: Loading tweak class name cpw.mods.fml.common.launcher.TerminalTweaker
+[18:54:59] [main/INFO] [LaunchWrapper/]: Calling tweak class cpw.mods.fml.common.launcher.TerminalTweaker
+[18:54:59] [main/INFO] [LaunchWrapper/]: Launching wrapped minecraft {net.minecraft.server.MinecraftServer}
+[18:55:04] [Server thread/INFO] [MinecraftForge/]: Attempting early MinecraftForge initialization
+[18:55:04] [Server thread/INFO] [FML/]: MinecraftForge v10.13.4.1614 Initialized
+[18:55:04] [Server thread/INFO] [FML/]: Replaced 184 ore recipies
+[18:55:04] [Server thread/INFO] [MinecraftForge/]: Completed early MinecraftForge initialization
+[18:55:04] [Server thread/INFO] [FML/]: Found 0 mods from the command line. Injecting into mod discoverer
+[18:55:04] [Server thread/INFO] [FML/]: Searching C:\Users\aaron\Desktop\forge server holy shit\mods for mods
+[18:55:05] [Server thread/INFO] [FML/]: Forge Mod Loader has identified 5 mods to load
+[18:55:05] [Server thread/INFO] [FML/FML]: Attempting connection with missing mods [mcp, FML, Forge, kimagine, invention] at CLIENT
+[18:55:05] [Server thread/INFO] [FML/FML]: Attempting connection with missing mods [mcp, FML, Forge, kimagine, invention] at SERVER
+[18:55:06] [Server thread/INFO] [FML/]: Processing ObjectHolder annotations
+[18:55:06] [Server thread/INFO] [FML/]: Found 341 ObjectHolder annotations
+[18:55:06] [Server thread/INFO] [FML/]: Identifying ItemStackHolder annotations
+[18:55:06] [Server thread/INFO] [FML/]: Found 0 ItemStackHolder annotations
+[18:55:06] [Server thread/INFO] [FML/Forge]: Configured a dormant chunk cache size of 0
+[18:55:06] [Server thread/INFO] [FML/]: Applying holder lookups
+[18:55:06] [Server thread/INFO] [FML/]: Holder lookups applied
+[18:55:06] [Server thread/INFO] [FML/]: Injecting itemstacks
+[18:55:06] [Server thread/INFO] [FML/]: Itemstack injection complete
+[18:55:06] [Server thread/INFO] [Minecraft/]: This server is running Cauldron version 1.7.10-1614.58 (MC: 1.7.10) (Implementing API version 1.7.10-R0.1-SNAPSHOT)
+[18:55:06] [Server thread/INFO] [Minecraft/]: Using 8 threads for Netty based IO
+[18:55:06] [Server thread/INFO] [/]: Server Ping Player Sample Count: 12
+[18:55:07] [Server thread/INFO] [FML/]: Injecting itemstacks
+[18:55:07] [Server thread/INFO] [FML/]: Itemstack injection complete
+[18:55:07] [Server thread/INFO] [FML/]: Forge Mod Loader has successfully loaded 5 mods
+[18:55:07] [Server thread/INFO] [FML/]: Injecting existing block and item data into this server instance
+[18:55:07] [Server thread/INFO] [FML/]: Applying holder lookups
+[18:55:07] [Server thread/INFO] [FML/]: Holder lookups applied
+[18:55:07] [Server thread/INFO] [FML/]: Injected new Forge block material INVENTION_W44SANDBAG with ID 165.
+[18:55:07] [Server thread/INFO] [FML/]: Injected new Forge block material INVENTION_W44SANDBAGSLAB with ID 166.
+[18:55:07] [Server thread/INFO] [FML/]: Injected new Forge block material INVENTION_W44CHAIR with ID 167.
+[18:55:07] [Server thread/INFO] [FML/]: Injected new Forge block material INVENTION_W44COUCH with ID 168.
+[18:55:07] [Server thread/INFO] [FML/]: Injected new Forge block material INVENTION_W44TANKTRAP with ID 169.
+[18:55:07] [Server thread/INFO] [FML/]: Injected new Forge block material INVENTION_W44HEDGEHOG with ID 176.
+[18:55:07] [Server thread/INFO] [FML/]: Injected new Forge block material INVENTION_W44CRATE with ID 177.
+[18:55:07] [Server thread/INFO] [FML/]: Injected new Forge block material INVENTION_W44FUELDRUM with ID 178.
+[18:55:07] [Server thread/INFO] [FML/]: Injected new Forge block material INVENTION_W44BARBEDWIRE with ID 179.
+[18:55:07] [Server thread/INFO] [FML/]: Injected new Forge block material INVENTION_W44TELEPHONEPOLE with ID 180.
+[18:55:07] [Server thread/INFO] [FML/]: Injected new Forge block material INVENTION_W44TABLE2 with ID 181.
+[18:55:07] [Server thread/INFO] [FML/]: Injected new Forge block material INVENTION_W44TABLE1 with ID 182.
+[18:55:07] [Server thread/INFO] [FML/]: Injected new Forge block material INVENTION_W44RADIO with ID 183.
+[18:55:07] [Server thread/INFO] [FML/]: Injected new Forge block material INVENTION_W44TALLLAMP with ID 184.
+[18:55:07] [Server thread/INFO] [FML/]: Injected new Forge block material INVENTION_W44SHORTLAMP with ID 185.
+[18:55:07] [Server thread/INFO] [FML/]: Injected new Forge block material INVENTION_W44GERMANBANNER with ID 186.
+[18:55:07] [Server thread/INFO] [FML/]: Injected new Forge block material INVENTION_W44GERMANBANNERTORN with ID 187.
+[18:55:07] [Server thread/INFO] [FML/]: Injected new Forge block material INVENTION_W44POSTERPANZER with ID 188.
+[18:55:07] [Server thread/INFO] [FML/]: Injected new Forge block material INVENTION_W44POSTERPEOPLE with ID 189.
+[18:55:07] [Server thread/INFO] [FML/]: Injected new Forge block material INVENTION_W44POSTERWERHMACHT with ID 190.
+[18:55:07] [Server thread/INFO] [FML/]: Injected new Forge block material INVENTION_W44HISPANOSUIZA with ID 191.
+[18:55:07] [Server thread/INFO] [FML/]: Loading dimension 0 (world) (net.minecraft.server.dedicated.DedicatedServer@79e8a88a)
+[18:55:07] [Server thread/INFO] [FML/]: Loading dimension 1 (DIM1) (net.minecraft.server.dedicated.DedicatedServer@79e8a88a)
+[18:55:08] [Server thread/INFO] [FML/]: Loading dimension -1 (DIM-1) (net.minecraft.server.dedicated.DedicatedServer@79e8a88a)
+[18:55:08] [Server thread/INFO] [/]: Hey, you don't have a server icon! Try out one of Thermos' Icon Generators at https://github.com/CyberdyneCC/ThermosIconGenerators !
+[18:55:09] [Server thread/INFO] [/]: Unknown command. Type "/help" for help.
+[18:55:09] [Server thread/INFO] [/]: Unknown command. Type "/help" for help.
+[18:55:09] [Server thread/INFO] [/]: Unknown command. Type "/help" for help.
+[18:55:09] [Server thread/INFO] [/]: Unknown command. Type "/help" for help.
+[18:55:09] [Server thread/INFO] [/]: Unknown command. Type "/help" for help.
+[18:55:09] [Server thread/INFO] [/]: Unknown command. Type "/help" for help.
+[18:55:09] [Server thread/INFO] [/]: Unknown command. Type "/help" for help.
+[18:55:09] [Server thread/INFO] [/]: Unknown command. Type "/help" for help.
+[18:55:09] [Server thread/INFO] [/]: Unknown command. Type "/help" for help.
+[18:55:09] [Server thread/INFO] [/]: Unknown command. Type "/help" for help.
+[18:55:09] [Server thread/INFO] [/]: Unknown command. Type "/help" for help.
+[18:55:09] [Server thread/INFO] [/]: Unknown command. Type "/help" for help.
+[18:55:09] [Server thread/INFO] [/]: Unknown command. Type "/help" for help.
+[18:55:09] [Server thread/INFO] [/]: Unknown command. Type "/help" for help.
+[18:55:09] [Server thread/INFO] [/]: Unknown command. Type "/help" for help.
+[18:55:09] [Server thread/INFO] [/]: Unknown command. Type "/help" for help.
+[18:55:09] [Server thread/INFO] [/]: Unknown command. Type "/help" for help.
+[18:55:09] [Server thread/INFO] [/]: Unknown command. Type "/help" for help.
+[18:55:09] [Server thread/INFO] [/]: Unknown command. Type "/help" for help.
+[18:55:09] [Server thread/INFO] [/]: Unknown command. Type "/help" for help.
+[18:55:09] [Server thread/INFO] [/]: Unknown command. Type "/help" for help.
+[18:55:09] [Server thread/INFO] [/]: Unknown command. Type "/help" for help.
+[18:55:09] [Server thread/INFO] [/]: Unknown command. Type "/help" for help.
+[18:55:09] [Server thread/INFO] [/]: Unknown command. Type "/help" for help.
+[18:55:09] [Server thread/INFO] [/]: Unknown command. Type "/help" for help.
+[18:55:10] [Thermos version retriever/INFO] [/]: New version of Thermos available: 1.7.10-1614.57
+[18:55:10] [Thermos version retriever/INFO] [/]: Download at: https://github.com/CyberdyneCC/Thermos/releases
